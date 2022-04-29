@@ -10,14 +10,14 @@
 <body>
 <main>
 
-    <a href="index.html" class="link">Назад</a>
+    <a href="/" class="link">Назад</a>
 
     <h1>Посты по запросу {{word}}</h1>
 
     <div class="post">
         {% for i in posts %}
-        <img src="{{i['pic']}}" width="50%" alt="">
-        <p>{{i["content"]}}</p>
+            <img src="{{i['pic']}}" width="50%" alt="">
+            <p>{{i["content"]}}</p>
         {% endfor %}
     </div>
     <hr>
