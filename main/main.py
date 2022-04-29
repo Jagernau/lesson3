@@ -1,4 +1,5 @@
 from flask import Blueprint, request, render_template
+import functions
 
 main_blueprint = Blueprint('main_blueprint', __name__, template_folder='templates', static_folder='static')
 
@@ -9,5 +10,7 @@ def page_index():
 @main_blueprint.route("/search")
 def page_tag():
     s = request.args['s']
-    return f'Вы ввели {s}'
+    serch_post = functions.get_post_from_text(s)
+    
+    return render_template("post_list.html", word=s, posts=serch_post)
 
