@@ -1,0 +1,17 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:58:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:58:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:58:01] "[36mGET /static/css/Raleway-Italic-VariableFont_wght.ttf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:58:02] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:58:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:файл image-pillow.png картинка
+INFO:root:файл image-pillow.png сохраняется
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:58:40] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:58:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:58:40] "GET /uploads/image-pillow.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:59:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:59:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:Искалось привет 
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:59:47] "GET /search?s=привет+ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:59:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 06:59:47] "[36mGET /uploads/image-pillow.png HTTP/1.1[0m" 304 -
